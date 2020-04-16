@@ -118,6 +118,7 @@ body{
     box-sizing: border-box;
 }
 .main-recomment button{
+
     margin-top: 35px;
     border: 1px solid rgba(238, 230, 238, 0.7);
     border-radius: 40px;
@@ -151,7 +152,7 @@ body{
 /* start main */
 .main{
     width: 75%;
-    height: 75px;
+    height: 3250px;
     margin: 0 auto;
     margin-top: 130px;
     box-sizing: border-box;
@@ -252,3 +253,107 @@ body{
     color:red
 }
 /* end main */
+
+/* start login-contact */
+.login-contact{
+    width: 100%;
+    height: 660px;
+    margin-top: 25px;
+    background-image: url(./img/f43a62_0420a01f94b64e5fa398ad105e229f13_mv2_d_3198_2399_s_2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+.login-contact .icon-contact{
+    height: 660px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:rgb(232, 238, 238);
+
+}
+.icon-contact h2{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+.icon-contact .icon-box .fab{
+    font-size: 22px;
+    padding: 0 5px;
+}
+.login-contact .input-info{
+    height: 660px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-info .input-important input[type="text"]{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background: rgba(143, 141, 141, 0);
+    color: rgb(122, 120, 120);
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+}
+input::-webkit-input-placeholder {
+    color: #fff;
+    font-size:17px;
+    font-weight: 200;
+}
+.input-info .input input[type="text"]{
+    display: flex;
+     width: 510px;
+    height: 50px;
+    margin: 10px 0 10px 10px;
+    border: none;
+    background: rgba(143, 141, 141, 0);
+    color: rgb(122, 120, 120);
+    border-bottom: 1px solid black;
+    font-size: 17px;
+}
+.input-info .message input[type="text"]{
+    width: 510px;
+    height:50px;
+    margin: 10px 0 10px 10px;
+    border: none;
+    background: rgba(143, 141, 141, 0);
+    color: rgb(122, 120, 120);
+    box-sizing:border-box;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+}
+.login-contact button{
+    margin-top: 35px;
+    border: 1px solid rgba(8, 8, 8, 0.7);;
+    border-radius: 40px;
+    background: rgba(236, 234, 234, 0);
+    padding: 0;
+}
+.login-contact button a{
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+    color: white;
+    display: block;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 40px;
+}
+.login-contact button a:hover{
+    box-sizing: border-box;
+    background: rgb(5, 5, 5);
+    border-radius: 40px;
+    color: white;
+    transition:  0.5s;
+}
+/* start login-contact */
